@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "TypoLoL";
+    src: url(../Fonts/bc7839c2f650eec7fda9141d22ff3c83f7e0cb81/BeaufortForLoL-OTF/BeaufortforLOL-Regular.otf);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.baratthetop {
+    background-color: rgb(10, 20, 40);
+    width: 100%;
+    height: 70px;
+    flex-direction: row;
+}
+
+
+.logo {
+    width: 70px;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.logologologo {
+    margin-top: 5%;
+}
+
+.profile {
+    height: 100%;
+    float: right;
+    margin-top: -70px;
+    margin-right: 5%;
+}
+
+.profilePic {
+    margin-top: 5%;
+}
+
+
+
+
+
+.header {
+    width: 100%;
+    height: 600px;
+    background-color: #D09A2F;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.titre {
+    text-align: left;
+    padding-left: 5%;
+    font-family: "TypoLoL", sans-serif;
+    font-size: 40px;
+    color: rgb(10, 20, 40);
+    width: 50%;
+}
+
+.titretexte {
+    height: 50%;
+}
+
+
+.photodansleheader {
+    width: 30%;
+    padding-right: 5%;
+}
+
+
+
+.preview {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.carte {
+    height: auto;
+}
+
+
+
+
+.playButton {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.buttonPlay {
+    background-color: rgb(10, 20, 40);
+    color: white;
+    font-family: "TypoLoL", sans-serif;
+    font-size: 30px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.void {
+    height: 100px;
+}
+
+.About {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    font-family: "TypoLoL", sans-serif;
+}
+
+.half {
+    width: 45%;
+    height: 100%;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 250px;
+    flex-direction: row;
+    display: flex;
+}
+
+.linksFooter {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+}
+
+.imagadesresaux {
+    margin-left: 5px;
+    margin-top: 175px;
+}
+
+
+.contactus {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    float : right;
+    color: white;
+}
+
+.ligne {
+    margin-top: 100px;
+    align-items: center;
+    gap: 10px;
+}
