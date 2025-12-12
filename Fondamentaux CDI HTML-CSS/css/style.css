@@ -188,3 +188,10 @@
     align-items: center;
     gap: 10px;
 }
+
+
+
+.darkmode {
+    background-color: #222;
+    color: #eee;
+}
